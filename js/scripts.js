@@ -7,7 +7,9 @@ function players(name) {
   return name;
 }
 
-
+function diceRandomizer(min, max) {
+  return Math.floor(Math.random() * (min + max) + 1);
+}
 
 
 
