@@ -54,3 +54,5 @@ Test: "It will output a random number between 1 and 6."
 Code:
 return Math.floor(Math.random() * (min+max) + 1);
 Expected Output: 1-6
+
+Test if, else statement for 1-6
