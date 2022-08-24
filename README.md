@@ -55,4 +55,11 @@ Code:
 return Math.floor(Math.random() * (min+max) + 1);
 Expected Output: 1-6
 
-Test if, else statement for 1-6
+Describes: diceOutput()
+
+Test: "It should return "statement" when 1 is randomized"
+Code:
+if {diceRandomizer === 1
+  return "statement"
+}
+Expected Output: "statement"

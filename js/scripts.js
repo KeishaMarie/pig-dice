@@ -7,10 +7,12 @@ function players(name) {
   return name;
 }
 
-function diceRandomizer(min, max) {
-  return Math.floor(Math.random() * (min + max) + 1);
+function diceRandomizer() {
+  const output = Math.floor(Math.random() * 6) + 1;
+  if (output === 1) {
+    return "statement"
+  }
+  return output;
 }
-
-
 
 // UI Logic
