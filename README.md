@@ -48,18 +48,40 @@ players(name)
 Expected Output: "false"
 
 
-Describes: diceRandomizer(min, max)
+Describes: diceRandomizer()
 
 Test: "It will output a random number between 1 and 6."
 Code:
 return Math.floor(Math.random() * (min+max) + 1);
 Expected Output: 1-6
 
-Describes: diceOutput()
-
 Test: "It should return "statement" when 1 is randomized"
 Code:
-if {diceRandomizer === 1
+if {output === 1
   return "statement"
 }
 Expected Output: "statement"
+
+Test: "It should list the output of each roll via diceRandomizer()."
+Code:
+arrayOutput = array[output]
+Expected Output: [rn, rn, rn,rn]
+
+
+
+TO DO
+* Create arrayList for output
+* New array = array.map
+* push each new output into array
+  array.push()
+* Total of output array
+  > const array = [0,1,2,3,4,5];
+  > let sum = 0;
+  > array.forEach(function(element) {
+  sum += element;
+  });
+  > sum;
+  15
+* Every time 
+* oldOuput + newOutput = PLAYER total  **(loop array)
+  when output = 1, ROUND total = null

@@ -15,4 +15,9 @@ function diceRandomizer() {
   return output;
 }
 
+
+
 // UI Logic
+function handleFormSubmition(event) {
+  event.preventDefualt
+}
