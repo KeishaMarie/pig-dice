@@ -32,5 +32,11 @@
 
 ### TDD
 
+Describes: players()
 
+Test: "It should return false when no information is inputted"
+Code:
+const name = " "
+players(name)
+Expexted Output: "false"...
 
