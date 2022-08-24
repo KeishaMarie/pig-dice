@@ -41,9 +41,16 @@ players(name)
 Expexted Output: "false"
 
 
-Test: "It should return false when user inputs spaces"
+Test: "It should return false when user inputs spaces only"
 Code: 
 const name = "  "
 players(name)
 Expected Output: "false"
 
+
+Describes: diceRandomizer(min, max)
+
+Test: "It will output a random number between 1 and 6."
+Code:
+return Math.floor(Math.random() * (min+max));
+Expected Output: 1-6
