@@ -36,7 +36,14 @@ Describes: players()
 
 Test: "It should return false when no information is inputted"
 Code:
-const name = " "
+const name = ""
 players(name)
-Expexted Output: "false"...
+Expexted Output: "false"
+
+
+Test: "It should return false when user inputs spaces"
+Code: 
+const name = "  "
+players(name)
+Expected Output: "false"
 
