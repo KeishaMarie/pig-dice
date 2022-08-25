@@ -67,8 +67,13 @@ Code:
 arrayOutput = array[output]
 Expected Output: [rn, rn, rn,rn]
 
-Description
-Test6:
+
+Description: Players ()
+
+Test6: "It should put player1 information in a construct."
+Code:
+function Players()
+Expected Output: player1Name, player1Round, player1Total.
 
 
 TO DO
