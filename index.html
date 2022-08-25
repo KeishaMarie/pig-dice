@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <scripts src="js/scripts.js"></scripts>
+  <script src="js/scripts.js"></script>
   <link href="css/styles.css" rel="stylesheet" type="text/css">
   <title>Pig Dice Game</title>
 </head>
 <body>
   <h1>Pig Dice Game</h1>
-  <form>
+  <form id="players">
   <label for= "playerOne">Player One</label>
   <input type="text" class="form-control" id="playerOne" name="playerOne"><br>
   <label for= "playerTwo">Player Two</label>
   <input type="text" class="form-control" id="playerTwo" name="playerTwo"><br>
   
-  <button type="submit" class="btn">Go!</button>
+  <button type="click" class="btn">Go!</button>
+  <button type="click" name="roll" class="btn">Roll</button>
+  <button type="submit" name="hold" class="btn">Hold</button>
   </form>
-  <button type="click" class="btn">Roll</button>
-  <button type="click" class="btn">Hold</button>
 </body>
 </html>

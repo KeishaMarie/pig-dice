@@ -1,3 +1,20 @@
+  // array.push(eachOutput);
+// UI Logic
+//  function handleFormSubmition(event) {
+  //    event.preventDefault();
+  //  }
+
+
+window.addEventListener("load", function() {
+  console.log("hello");
+  const form = document.getElementById("players");
+  console.log(form);
+  let array = []
+  roundData(array);
+  console.log(array);
+})
+
+
 //Business Logic
 
 function players(name) {
@@ -15,22 +32,14 @@ function diceRandomizer() {
   return output
 }
 
-total = 0;
-
-function roundData(eachOutput) {
-  array = [];
-  array.forEach(function(round) {
-    array.push(diceRandomizer())
-    // total += output;
-    console.log(array)
-  })
-}
+function roundData(array) {
+  array.push(diceRandomizer());
+  return array
+  };
 
 
 
 
 
-// UI Logic
-function handleFormSubmition(event) {
-  event.preventDefualt
-}
+  
+  
