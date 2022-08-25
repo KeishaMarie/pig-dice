@@ -12,8 +12,21 @@ function diceRandomizer() {
   if (output === 1) {
     return "statement"
   }
-  return output;
+  return output
 }
+
+total = 0;
+
+function roundData(eachOutput) {
+  array = [];
+  array.forEach(function(round) {
+    array.push(diceRandomizer())
+    // total += output;
+    console.log(array)
+  })
+}
+
+
 
 
 
