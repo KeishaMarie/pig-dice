@@ -67,22 +67,12 @@ Code:
 arrayOutput = array[output]
 Expected Output: [rn, rn, rn,rn]
 
-  function roundData(eachOutput) {
-    let array = [];
-    let  newArray = array.push(eachOutput)
-    if (!array) {
-      array = [eachOutput];
-      return array
-    } else {
-    } return newArray;
-      console.log(array);
-    };
+Description
+Test6:
 
-need to define a blank array higer up in code, possibly in .onload 
 
 TO DO
 * Create arrayList for output
-* New array = array.map
 * push each new output into array
   array.push()
 * Total of output array
